@@ -1,0 +1,50 @@
+body{
+    color:green;
+}
+
+#redDiv{
+    color:red;
+}
+.redDiv{
+    color: red;
+}
+.problem1{
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    color: black;
+    max-width: 750px;
+    border-spacing: 20px;
+}
+.boldbig{
+    font-size: 130%;
+    font-weight:bold;
+}
+.problem2{
+
+    color: black;
+}
+.forms{
+    padding:5px;
+}
+input{
+    padding:5px;
+    margin:5px;
+}
+a:active{
+    color:pink;
+}
+a:visited{
+    color: magenta;
+}
+/*hide scrollbar for chrome safari opera*/
+.example::-webkit-scrollbar{
+    display:none;
+}
+.buttonAntra{
+    height:100%;
+    width:100%;
+    font-size:25px;
+    color:blue;
+
+}
