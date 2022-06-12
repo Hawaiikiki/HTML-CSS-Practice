@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">  no closing tag
+    <head>
+        <meta charset="UTF-8"> meta tags tell information about the page
+        <meta http-equiv = "X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> tells how much space it has, initial scale tells the scale
+        <title>HTML and CSS Class</title>
+        <link rel="stylesheet" href="Assets/css/styles.css"> css linking
+        
+    </head>
+    <body style="color: green;">
+        <h1>Header 1 usually used once</h1>
+        <h2>Header 2 Sections or subtitles</h2>
+        <h3>Header 3 even smaller sections</h3>
+        This is my content<br> br means break tag
+        <p>p tag is a paragraph tag</p>
+        yeah
+        <!--This is our red division below-->
+        
+        <div id="redDiv">
+            div means divider or division
+            this part will stay red
+            <p>
+                nested paragraph
+                <a href="https://www.google.com">google link, we can put an image here to make it as a link to new page</a>
+            </p>
+        </div>
+        <article>
+            this is an article tag
+            <section>
+                this is section tag
+            </section>
+            <nav>
+                this is navigation tag
+            </nav>
+            <aside>
+                aside is for having paragraph,paper, graph or something next to (horizontally). Usually used for layout
+            </aside>
+        </article>
+        <p> this is even <span class="redDiv"> more</span> content</p>
+        <hr>
+        horizontal line
+        <ol>
+            ordered list, we can change the type to 1, A, a, I, i to have different listing<br/>
+            e.g. type="A"
+            <li>
+                item 1
+            </li>
+            <li>
+                item 2
+            </li>
+        </ol>
+        <!--ol>li*5 to create multiple ordered list-->
+        <ol>
+            <li>a</li>
+            <li>b</li>
+            <li>c</li>
+            <li>d</li>
+            <li>e</li>
+        </ol>
+        <ul>
+            <li>a</li>
+            <li>b</li>
+            <li>c</li>
+            <li>d</li>
+            <li>e</li>
+        </ul>
+        <hr>
+        <form id="myForm" class="forms" onsubmit="validateForm()">
+            <label for="fName" name="fName">First name: </label>
+            <input type="text" id="fName" name="fName"><br>
+            <label for="lName" name="lName">Last name: </label>
+            <input type="text" id="lName" name="lName">
+            <label for="Email" name="Email">Email: </label>
+            <input type="text" id="Email" name="Email">
+            <label for="Password" name="Password">Password: </label>
+            <input type="text" id="Password" name="Password">
+            <input type="submit" value="Submit">
+            <input type="button" onclick="resetForm()" value="Clear Form">
+            
+        </form>
+        <button id="bgColor" value="Change Background Color">change bg color</button>
+        <form action="/action_page.html">
+            <fieldset>
+                <legend>Person: </legend>
+                <label for="fName">First name: </label>
+                <select id="cars" name="fNam">
+                    <option value="Volvo">Volvo</option>
+                    <option value="Audi">Audi</option>
+                    <option value="Ford">Ford</option>
+                </select>
+                <input type="text" id="fName" name="fName"><br>
+                <label for="lName">Last name: </label>
+                <input type="text" id="lName" name="lName">
+                <label for="password">Password: </label>
+                <input type="password" id="password" name="password">
+                <input type="checkbox"> checkbox
+                <input type="radio"> radio
+                <input type="button"> button
+            </fieldset>
+            <label for="fName">First name: </label>
+            <select id="cars" name="fNam">
+                <option value="Volvo">Volvo</option>
+                <option value="Audi">Audi</option>
+                <option value="Ford">Ford</option>
+            </select>
+            <input type="text" id="fName" name="fName"><br>
+            <label for="lName">Last name: </label>
+            
+            </datalist>
+            <input type="text" id="lName" name="lName">
+            <textarea name="someName" rows="10" cols="30">this is text area</textarea>
+            <input list="cars">
+            <datalist id="cars">
+                <option value="Volvo">Volvo</option>
+                <option value="Audi">Audi</option>
+                <option value="Ford">Ford</option>
+            <input type="submit" value="Submit">
+        </form>
+        <script src="Assets/scripts/app.js"></script>
+    </body>
+</html>

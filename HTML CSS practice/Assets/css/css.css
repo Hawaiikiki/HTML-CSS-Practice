@@ -1,0 +1,148 @@
+.topnav {
+    background-color: navy;
+    overflow: hidden;
+    text-decoration-color: white;
+  }
+  .topnav a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    
+  }
+  .dropdown {
+    float: right;
+    overflow: hidden;
+    
+  }
+  .dropdown .dropbtn{
+    font-size:16px;
+    border:none;
+    outline:none;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: inherit;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: navy;
+    min-width: 160px;
+    box-shadow: 0px 8px 10px 0px black;
+    z-index: 1;
+  }
+  .dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown-content a:hover {
+    background-color: red;
+  }
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  .dropdown:hover .dropdown-content{
+    display: block;
+  }
+  
+  .topnav input[type=text] {
+    float:right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  form.form1 button{
+    float: right;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+
+  .w{
+    background-color: darkslategrey;
+    padding-left:30px;
+    padding-right: 30px;
+    padding-top:0px;
+    padding-bottom:0;
+    color: white;
+    width:100%;
+
+  }
+  .w thead{
+    font-size:20px;
+  }
+  .w td{
+    min-width: 250px;
+  }
+  .w tbody{
+    font-size:15px;
+  }
+  .grad{
+    background-color:indigo;
+    background-image: linear-gradient(to bottom right, indigo, darkslategrey);
+    height:100px;
+    position: relative;
+  }
+  .button3{
+    background-color: orange;
+    color:white;
+    height:30px;
+    width:90px;
+    position:absolute;
+    right:100px;
+    bottom:30px;
+  }
+  .newsDiv{
+    position:relative;
+    background-color:#f3f3f3;
+    height:700px;
+    padding-left:10%;
+    padding-right:10%;
+    padding-top:7%;
+    padding-bottom:7%;
+  }
+  .newsTable{
+    margin:10px;
+    padding-right:10px;
+  }
+  .newsTableDiv{
+    background-color:white; 
+    padding:10px; 
+    font-size:16px;
+    width:400px;
+    height: 450px;
+  }
+  .pagination{
+    display: inline-block;
+  }
+  .pagination a{
+    color: white;
+    float:left;
+    padding:8px 16px;
+    text-decoration: none;
+    background-color:skyblue;
+    margin-right: 1px;
+  }
+
+  .pagination a.active{
+    background-color: orange;
+    color:white;
+  }
+  .pagination a:hover:not(.active){
+    background-color: #ddd;
+  }
